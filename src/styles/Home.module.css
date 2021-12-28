@@ -1,0 +1,12 @@
+.container {
+  height: 100vh;
+  padding: 0 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container form {
+  display: flex;
+  flex-direction: column;
+}
