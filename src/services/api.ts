@@ -89,6 +89,8 @@ export function setupApiClient(ctx: Context = undefined) {
         // deslogar usuário
         if(process.browser){
             signOut()
+
+            return Promise.reject(false)
         } else {
           return Promise.reject(new AuthTokenError())
         }
